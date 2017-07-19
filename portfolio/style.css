@@ -1,0 +1,90 @@
+.heading {
+		line-height: 2em;
+		letter-spacing: 2em;
+		font: 2em Lobster;
+		font-weight: 800;
+	}
+	.head-image{
+		background-image: url("imgs/drawing.jpg");
+		height: 500px;
+	}
+	.contacts{
+		line-height: 2em;
+		font: 3em Lobster;
+		letter-spacing: 0.1em;
+	}
+	.nav-menu{
+		padding-top: 1em;
+		font: 1.2em Lobster;
+		cursor: pointer;
+		background-color: black;
+		color: white;
+	}
+	.nav-lis{
+		color: white;
+		text-decoration: none;
+	}
+	.nav-lis:hover{
+		color: white;
+		text-decoration: underline;
+	}
+	.inter{
+		font-family: Lobster;
+		background-color: #00aeff;
+		padding: 10px;
+		letter-spacing: 1.2em;
+	}
+	
+	#fb{
+		color: #3b5998;
+	}
+	#li{
+		color: #0077b5;
+	}
+	#tw{
+		color: #0084b4;
+	}
+	#gh{
+		color: #ed8b00;
+	}
+	#fb,
+	#li,
+	#tw,
+	#gh{
+		cursor: pointer;		
+	}
+	#fb:hover,
+	#li:hover,
+	#tw:hover,
+	#gh:hover{
+		text-decoration: underline;
+	}
+	
+	.about-me{
+		padding: 1.1em 0;
+		font: 2em Audiowide;
+		letter-spacing: 0.5em;
+	}
+	#about div p,
+	#portfolio p	{
+		font: 2.2em Caveat;	
+	}
+	.footer{
+		background-color: black;
+		color: white;
+		padding: 1em 0;
+		letter-spacing: 0.5em;
+	}
+
+	@media only screen and (max-width: 992px) {
+    .heading{
+        display: none;
+    }
+	@media only screen and (max-width: 700px) {
+    .head-image{
+        height: 50%;
+    }
+	@media only screen and (max-width: 400px) {
+    .third-img{
+        display: none;
+    }
